@@ -1,23 +1,10 @@
-.parrafo{
-    font-size: 35px;
-}
-
-.menu a:hover{
-    color: white;
-    display: flex;
-}
-
 body{
     margin: 0;
-    background: url(Imágenes/videos-fondo-web.jpg);   
+    padding: 0;
+    background-color: #BED792;   
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
-}
-
-a{
-    text-decoration: none;
-    color: black;
 }
 
 header{
@@ -47,6 +34,7 @@ nav a{
 
 nav a:hover{
     color: white;
+    font-size: 20;
 }
 
 @media (max-width:700px){
@@ -130,4 +118,10 @@ nav a:hover{
         padding: 35px 0px;
         align-items: center;
     }
+}
+
+.icons :hover{
+    display: inline;
+    font-size: 45px;
+    color: white;
 }
