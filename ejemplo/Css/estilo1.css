@@ -1,6 +1,6 @@
 .parrafo{
     font-size: 30px;
-    background-color:#849567;
+
 }
 
 .menu li a:hover{
@@ -14,10 +14,14 @@
 
 body{
     margin: 0;
-    background-color: #BED792;  
+    background-color: #447D89;  
     background-size: cover;
     background-position: center;
-    font-family: sans-serif;
+    font-family fuentesita;
+}
+@font-face {
+    font-family: fuentesita;
+    src: url("Roboto-Slab.ttf");
 }
 
 a{
@@ -28,7 +32,7 @@ a{
 header{
     display: flex;
     min-height: 70px;
-    background-color: coral;
+    background-color: #70B1C7;
     justify-content: space-between;
     align-items: center;
     padding: 10;

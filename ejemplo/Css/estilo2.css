@@ -1,10 +1,10 @@
-.secundaria{
+body{
     margin: 0;
     padding: 0;
     background-color:#D4D7D0;
     background-size: cover;
     background-position: center;
-    font-family: sans-serif;
+    font-family: fuentesita;
 }
 
 a{
@@ -130,3 +130,9 @@ nav a:hover{
     font-size: 45px;
     color: white;
 }
+
+
+    @font-face {
+        font-family: fuentesita;
+        src: url("Roboto-Slab.ttf");
+    }
